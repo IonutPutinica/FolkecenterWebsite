@@ -1,5 +1,7 @@
+
+/* code for the body */ 
 body {
-    background-image: url("../images/bg1.jpg");
+    background color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,8 +12,17 @@ body {
     font-family: "montserrat", sans-serif;
 }
 
+
+/* code for the wrapper of the webpage */ 
+.wrapper
+{
+    width: 960px;
+    margin:0 auto;
+}
+
+/* code for the nav bar starts */ 
 .header {
-    height: 100px;
+    height: 80px;
     background: #34495e;
     padding: 0 20px;
     color: #fff;
@@ -115,3 +126,4 @@ body {
         right: 0;
     }
 }
+/* code for the nav bar ends */ 
