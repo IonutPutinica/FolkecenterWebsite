@@ -1,7 +1,8 @@
 
 /* code for the body */ 
 body {
-    background color: white;
+    padding-top: 75px;
+    background-color: #659DBD;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,6 +17,7 @@ body {
 /* code for the wrapper of the webpage */ 
 .wrapper
 {
+    background-color: 659DBD;
     width: 960px;
     margin:0 auto;
 }
@@ -23,7 +25,7 @@ body {
 /* code for the nav bar starts */ 
 .header {
     height: 80px;
-    background: #34495e;
+    background: #46344E;
     padding: 0 20px;
     color: #fff;
     position: fixed;
