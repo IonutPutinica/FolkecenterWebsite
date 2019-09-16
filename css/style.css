@@ -58,9 +58,9 @@ CONTENT CODE START
     align-items: center;
     justify-content: center;
     background-image: url(../images/Folkecenter_aerial%20picture.jpg);
-      /* used so the background image doesn't repeat over and over again*/
+    /* used so the background image doesn't repeat over and over again*/
     background-repeat: no-repeat;
-      /* background size cover gives the image responsivness*/
+    /* background size cover gives the image responsivness*/
     background-size: cover;
     min-height: 100vh;
 }
@@ -99,10 +99,10 @@ CONTENT CODE START
 
 
 @media(max-width:800px) {
-    #content{
+    #content {
         min-height: 600px;
     }
-    
+
     #content h1 {
         font-size: 36px;
     }
@@ -121,6 +121,26 @@ CONTENT CODE START
 
 /* --------------
 CONTENT CODE END
+-----------------*/
+
+/* --------------
+ABOUT CODE START
+-----------------*/
+
+ h3.title
+{
+    color:#131633;
+    text-transform: capitalize;
+    font-size: 32;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+
+
+/* --------------
+ABOUT CODE END
 -----------------*/
 
 /* --------------
