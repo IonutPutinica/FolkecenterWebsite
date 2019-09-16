@@ -39,6 +39,27 @@ hr {
 }
 
 /* --------------
+CONTENT CODE START
+-----------------*/
+#content
+{
+    background: gray;
+    color: white;
+    text-align: center;
+}
+
+#content h1, #content h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-shadow: 2px 2px #000;
+    margin-bottom:40px;
+}
+/* --------------
+CONTENT CODE END
+-----------------*/
+
+
+/* --------------
 FOOTER CODE START
 -----------------*/
 
