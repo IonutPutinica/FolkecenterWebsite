@@ -46,6 +46,11 @@ CONTENT CODE START
     background: gray;
     color: white;
     text-align: center;
+    /* Horizontal and vertical centering in the parent container*/
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }
 
 #content h1, #content h3 {
@@ -54,6 +59,11 @@ CONTENT CODE START
     text-shadow: 2px 2px #000;
     margin-bottom:40px;
 }
+#content h1 {
+    font-size:60px;
+    margin-bottom: 15px;
+}
+
 /* --------------
 CONTENT CODE END
 -----------------*/
