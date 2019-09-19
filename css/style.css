@@ -379,7 +379,7 @@ QUOTES CODE START
 @media(max-width:1000px) {
     #quotes .quote {
         font-size: 18px;
-        padding:0 20px;
+        padding: 0 20px;
     }
     #quotes .author {
         font-size: 14px;
