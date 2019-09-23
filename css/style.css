@@ -46,15 +46,43 @@ hr {
 /* --------------
 HEADER CODE START
 -----------------*/
-header{
-    background-color: rgba(0,0,0,.7);
+
+header {
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color:#fff;
+    padding: 35px 100px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+    opacity: .6;
+    cursor: pointer;
+}
+
+header a:hover{
+    opacity: 1;
+}
+
+header nav ul{
+    font-size:14px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 
 /* --------------
 HEADER CODE END
 -----------------*/
-
 
 /* --------------
 CONTENT CODE START
@@ -407,15 +435,15 @@ QUOTES CODE END
 CONTACT CODE START
 -----------------*/
 
-section.flexbox-section{
-    width:100%;
+section.flexbox-section {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-section.flexbox-section p{
+section.flexbox-section p {
     max-width: 900px;
     text-align: center;
     margin-bottom: 35px;
@@ -428,7 +456,6 @@ section.flexbox-section p{
 /* --------------
 CONTACT CODE END
 -----------------*/
-
 
 /* --------------
 FOOTER CODE START
