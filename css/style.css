@@ -43,6 +43,18 @@ hr {
     margin: 40px auto;
 }
 
+/* --------------
+HEADER CODE START
+-----------------*/
+header{
+    background-color: rgba(0,0,0,.7);
+}
+
+
+/* --------------
+HEADER CODE END
+-----------------*/
+
 
 /* --------------
 CONTENT CODE START
