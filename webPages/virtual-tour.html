@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Virtual Tour Nordic Folkecenter</title>
+    <link rel="icon" href="../images/FC.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel=stylesheet href="../css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+    <script src="../js/javascript.js"></script>
+    <style>
+
+
+    </style>
+</head>
+
+<body id="top">
+    <header>
+        <h2><a hred="#" target="_blank"><img src="../images/fklogosm.png"></a></h2>
+        <nav>
+            <ul>
+                <li><a href="../webPages/index.html">Home</a></li>
+                <li><a href="../webPages/about.html">About</a></li>
+                <li><a href="../webPages/history.html">History</a></li>
+                <li><a href="../webPages/virtual-tour.html">Virtual Tour</a></li>
+                <li><a href="../webPages/career.html">Training program/Career</a></li>
+                <li><a href="../webPages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ******************************** -->
+    
+
+
+
+    <!-- ******************************** -->
+
+    <footer id="social-media">
+        <ul>
+            <li><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="" target="_blank"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+
+            </script> Nordisk Folkecenter</p>
+        <p>&ldquo;Working for a world running on 100% renewables since 1983.&rdquo; </p>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function() {
+                    window.location.hash = target;
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
