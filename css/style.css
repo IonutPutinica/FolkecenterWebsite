@@ -490,6 +490,85 @@ CONTACT CODE END
 -----------------*/
 
 /* --------------
+TRAINING CODE START
+-----------------*/
+
+#front-training {
+    background: gray;
+    color: white;
+    text-align: center;
+    /* Horizontal and vertical centering in the parent container*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/training.png);
+    /* used so the background image doesn't repeat over and over again*/
+    background-repeat: no-repeat;
+    /* background size cover gives the image responsivness*/
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#front-training h1,
+#front-training h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 40px;
+}
+
+#front-training h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#front-training a.btn {
+    color: white;
+    background-color: #131633;
+    /* text-decoration none removes the underline*/
+    text-decoration: none;
+    padding: 20px 46px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    border: 2px solid white;
+
+}
+
+#front-training a.btn:hover {
+    background-color: #2196f3;
+}
+
+
+@media(max-width:800px) {
+    #front-training {
+        min-height: 600px;
+    }
+
+    #front-training h1 {
+        font-size: 36px;
+    }
+
+    #front-training h3 {
+        font-size: 18px;
+    }
+
+    #front-training a.btn {
+
+        padding: 15px 40px;
+    }
+}
+
+
+
+/* --------------
+TRAINING CODE END
+-----------------*/
+
+/* --------------
 FOOTER CODE START
 -----------------*/
 
