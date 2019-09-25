@@ -79,34 +79,34 @@ header nav ul {
     justify-content: flex-end;
 }
 
-header nav li{
+header nav li {
     margin: 0 6px;
 }
 
-header nav li:first-child{
+header nav li:first-child {
     margin: 0 6px;
 }
 
-header nav li:last-child{
+header nav li:last-child {
     margin: 0 6px;
 }
 
 @media(max-width:1000px) {
-    header{
+    header {
         text-align: center;
         flex-direction: column;
-        padding:20px 50px;
+        padding: 20px 50px;
     }
-    
-    header img{
+
+    header img {
         widows: 75%;
     }
-    
-    header nav{
+
+    header nav {
         justify-content: space-around;
     }
-    
-    header h2{
+
+    header h2 {
         margin-bottom: 15px;
     }
 }
@@ -195,6 +195,11 @@ CONTENT CODE START
 CONTENT CODE END
 -----------------*/
 
+
+/* --------------
+ABOUT CODE START
+-----------------*/
+
 #about {
     padding: 10px;
     background-color: #f7f7f7;
@@ -232,11 +237,6 @@ CONTENT CODE END
 
     }
 }
-
-
-/* --------------
-ABOUT CODE START
------------------*/
 
 h3.title {
     color: #131633;
@@ -560,6 +560,25 @@ TRAINING CODE START
 
         padding: 15px 40px;
     }
+}
+
+#training-content
+{
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+
+.training-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 2;
+    width: 30%;
+    height: 30%;
 }
 
 
