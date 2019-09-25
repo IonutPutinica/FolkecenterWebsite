@@ -38,7 +38,7 @@ h3.title {
 hr {
     width: 150px;
     height: 2px;
-    background-color: #2196f3;
+    background-color: white;
     border: 0;
     margin: 40px auto;
 }
@@ -575,13 +575,20 @@ TRAINING CODE START
     margin-left: auto;
     margin-right: auto;
     border: 2px solid black;
+    margin-top: 35px;
     margin-bottom: 20px;
-    padding: 2;
-    width: 30%;
-    height: 30%;
+    padding:2px;
+    width: 80%;
+    height: 80%;
 }
 
-
+#training-content p {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 15px;
+    padding: 0 20px;
+    line-height: 2;
+}
 
 /* --------------
 TRAINING CODE END
