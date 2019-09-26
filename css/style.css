@@ -195,7 +195,6 @@ CONTENT CODE START
 CONTENT CODE END
 -----------------*/
 
-
 /* --------------
 ABOUT CODE START
 -----------------*/
@@ -562,8 +561,7 @@ TRAINING CODE START
     }
 }
 
-#training-content
-{
+#training-content {
     padding: 10px;
     background-color: #f7f7f7;
     margin-bottom: 20px;
@@ -577,7 +575,7 @@ TRAINING CODE START
     border: 2px solid black;
     margin-top: 35px;
     margin-bottom: 20px;
-    padding:2px;
+    padding: 2px;
     width: 80%;
     height: 80%;
 }
@@ -605,6 +603,37 @@ h3.title-history {
     margin-top: 95px;
     margin-bottom: 35px;
     text-align: center;
+
+}
+
+.single-history-item {
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+
+.single-history-item p {
+    padding: 0px 16px
+}
+
+p.history-p {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+
+@media screen and (min-width: 700px) {
+
+
+    .single-history-item {
+        width: 50%;
+        float: left;
+    }
+
+}
 
 
 
